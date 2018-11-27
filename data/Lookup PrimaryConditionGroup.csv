@@ -1,0 +1,46 @@
+PrimaryConditionGroup,Description
+AMI,Acute myocardial infarction
+APPCHOL,Appendicitis
+ARTHSPIN,Arthropathies
+CANCRA,Cancer A
+CANCRB,Cancer B
+CANCRM,Ovarian and metastatic cancer
+CATAST,Catastrophic conditions
+CHF,Congestive heart failure
+COPD,Chronic obstructive pulmonary disorder
+FLaELEC,Fluid and electrolyte
+FXDISLC,Fractures and dislocations
+GIBLEED,Gastrointestinal bleeding
+GIOBSENT,"Gastrointestinal, inflammatory bowel disease, and obstruction"
+GYNEC1,Gynecology
+GYNECA,Gynecologic cancers
+HEART2,Other cardiac conditions
+HEART4,Atherosclerosis and peripheral vascular disease
+HEMTOL,Non-malignant hematologic
+HIPFX,Hip fracture
+INFEC4,All other infections
+LIVERDZ,Liver disorders
+METAB1,Diabetic ketoacidosis and related metabolic
+METAB3,Other metabolic
+MISCHRT,Miscellaneous cardiac
+MISCL1,Miscellaneous 1
+MISCL5,Miscellaneous 3
+MSC2a3,Miscellaneous 2
+NEUMENT,Other neurological
+ODaBNCA,Ingestions and benign tumors
+PERINTL,Perinatal period
+PERVALV,Pericarditis
+PNCRDZ,Pancreatic disorders
+PNEUM,Pneumonia
+PRGNCY,Pregnancy
+RENAL1,Acute renal failure
+RENAL2,Chronic renal failure
+RENAL3,Other renal
+RESPR4,Acute respiratory
+ROAMI,Chest pain
+SEIZURE,Seizure
+SEPSIS,Sepsis
+SKNAUT,Skin and autoimmune disorders
+STROKE,Stroke
+TRAUMA,All other trauma
+UTI,Urinary tract infections
