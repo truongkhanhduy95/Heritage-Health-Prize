@@ -45,7 +45,5 @@ Neural Networks | 0.00
 Gradient Boosting Machines | 0.00
 
 ## Ensemble
-  Ensemble result: 0.00
-
-Let $\text{S}_1(N) = \sum_{p=1}^N \text{E}(p)$
+> Ensemble result: 0.00
 
