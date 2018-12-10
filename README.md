@@ -23,7 +23,7 @@ https://foreverdata.org/1015/index.html
 
 To measure the performance of model, we use a score called RMSLE (Root Mean Squared Logarithmic Error):
 
-<img src="https://github.com/truongkhanhduy95/Heritage-Health-Prize/tree/master/img/eval.PNG"/>
+<img src="https://github.com/truongkhanhduy95/Heritage-Health-Prize/blob/master/img/eval.PNG"/>
 
 Where:
 
