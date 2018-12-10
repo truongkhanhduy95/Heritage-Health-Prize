@@ -46,3 +46,5 @@ Gradient Boosting Machines | 0.00
 
 ## Ensemble
   Ensemble result: 0.00
+
+\mathcal{W}(A,f) = (T,\bar{f})
