@@ -36,16 +36,23 @@ Where:
 
 ### 1. Data preparation
 - [x] Importing data
-- [x] Data cleaning (Hanlding missing value, hanlding categorical and continuous data,..)
+- [x] Data cleaning (Hanlding missing value, hanlding categorical and continuous data,...)
 - [ ] Merging files
 - [ ] Handling outliners
 ### 2. Feature extraction
 - [ ] Exploring data (Visualizations, Distribution of features,...)
+- [ ] Feature scaling (Standardisation, Mean Normalisation, Min-Max Scaling,... )
 ### 3. Predictive modelling
-- [ ] Training model (Linear Regression, Support Vector Regression, Random Forests, Logistic Regression, Neural Networks, Gradient Boosting Machines)
-- [ ] Model cross-validation
+- [ ] Linear Regression
+- [ ] Support Vector Regression
+- [ ] Random Forests
+- [ ] Logistic Regression
+- [ ] Neural Networks
+- [ ] Gradient Boosting Machines
+### 3. Models summarry
+- [ ] Model cross-validation (Stratified K-Fold)
 - [ ] Hyperparameter tuning
-### 4. Ensemble methods
+### 5. Ensemble methods
 - [ ] Models selection (Observation models correlations)
 - [ ] Ensembling
 
@@ -60,6 +67,6 @@ Logistic Regression | 0.00
 Neural Networks | 0.00
 Gradient Boosting Machines | 0.00
 
-## Ensemble
+## Ensemble method
 > Ensemble result: 0.00
 
