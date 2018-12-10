@@ -18,18 +18,18 @@ and is typically compensated in return for a description of their method.
 
 ## Task Lists
 
-1. Data preparation
+### 1. Data preparation
 - [x] Importing data
 - [x] Data cleaning (Hanlding missing value, hanlding categorical and continuous data,..)
 - [ ] Merging files
 - [ ] Handling outliners
-2. Feature extraction
+### 2. Feature extraction
 - [ ] Exploring data (Visualizations, Distribution of features,...)
-3. Predictive modelling
+### 3. Predictive modelling
 - [ ] Training model (Linear Regression, Support Vector Regression, Random Forests, Logistic Regression, Neural Networks, Gradient Boosting Machines)
 - [ ] Model cross-validation
 - [ ] Hyperparameter tuning
-4. Ensemble methods
+### 4. Ensemble methods
 - [ ] Models selection (Observation models correlations)
 - [ ] Ensembling
 
