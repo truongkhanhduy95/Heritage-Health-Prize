@@ -21,7 +21,7 @@ https://foreverdata.org/1015/index.html
 
 ### Evaluation metric
 
-To measure the performance of model, we use a score called RMSLE (Root Mean Squared Logarithmic Error):
+To measure the performance of model, we use a score called <b>RMSLE (Root Mean Squared Logarithmic Error)</b>:
 
 <img src="https://github.com/truongkhanhduy95/Heritage-Health-Prize/blob/master/img/eval.PNG"/>
 
