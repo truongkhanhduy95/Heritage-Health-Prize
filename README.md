@@ -47,4 +47,5 @@ Gradient Boosting Machines | 0.00
 ## Ensemble
   Ensemble result: 0.00
 
-\mathcal{W}(A,f) = (T,\bar{f})
+Let $\text{S}_1(N) = \sum_{p=1}^N \text{E}(p)$
+
