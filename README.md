@@ -16,6 +16,22 @@ datasets as well as quantitative feedback for predictions made. The team
 that produces the most accurate model within the time frame wins the competition
 and is typically compensated in return for a description of their method.
 
+### Dataset
+https://foreverdata.org/1015/index.html
+
+### Evaluation metric
+
+To measure the performance of model, we use a score called RMSLE (Root Mean Squared Logarithmic Error):
+
+<img src=https://github.com/truongkhanhduy95/Heritage-Health-Prize/tree/master/img/eval.PNG" width="500" height="180" />
+
+Where:
+
+1. i is a member;
+2. n is the total number of members;
+3. p is the predicted number of days spent in hospital for member i in the test period;
+4. a is the actual number of days spent in hospital for member i in the test period.
+
 ## Task Lists
 
 ### 1. Data preparation
