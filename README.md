@@ -1,4 +1,4 @@
-# Heritage-Health-Prize
+# Heritage Health Prize Competition
 
 ## Introduction to HHP
 
