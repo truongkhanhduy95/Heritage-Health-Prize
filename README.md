@@ -18,6 +18,7 @@ and is typically compensated in return for a description of their method.
 
 ### Dataset
 https://foreverdata.org/1015/index.html
+(Due to Github's limitation, archived dataset have been store in data.zip. Please extract and save it in ./data folder)
 
 ### Evaluation metric
 
