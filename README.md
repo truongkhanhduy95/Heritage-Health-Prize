@@ -49,7 +49,7 @@ Where:
 - [ ] Logistic Regression
 - [ ] Neural Networks
 - [ ] Gradient Boosting Machines
-### 3. Models summarry
+### 4. Models summary
 - [ ] Model cross-validation (Stratified K-Fold)
 - [ ] Hyperparameter tuning
 ### 5. Ensemble methods
