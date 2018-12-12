@@ -1,18 +1,3 @@
-ProcedureGroup,Description
-ANES,Anesthesia
-EM,Evaluation and Management
-MED,Medicine
-PL,Pathology and Laboratory
-RAD,Radiology
-SAS,Surgery-Auditory System
-SCS,Surgery-Cardiovascular System
-SDS,Surgery-Digestive System
-SEOA,Surgery-Eye and Ocular Adnexa
-SGS,Surgery-Genital System
-SIS,Surgery-Integumentary System
-SMCD,Surgery-Maternity Care and Delivery
-SMS,Surgery-Musculoskeletal System
-SNS,Surgery-Nervous System
-SO,Surgery-Other
-SRS,Surgery-Respiratory System
-SUS,Surgery-Urinary System
+version https://git-lfs.github.com/spec/v1
+oid sha256:f92efd21fd2f8c18523d8c67bb9d9fed5a94d08a190952ab60d7d06b582f6c28
+size 509
