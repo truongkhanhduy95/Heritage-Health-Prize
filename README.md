@@ -39,7 +39,7 @@ Where:
 ### 1. Data preparation
 - [x] Importing data
 - [x] Data cleaning (Hanlding missing value, hanlding categorical and continuous data,...)
-- [ ] Merging files
+- [x] Merging files
 - [ ] Handling outliners
 ### 2. Feature extraction
 - [ ] Exploring data (Visualizations, Distribution of features,...)
