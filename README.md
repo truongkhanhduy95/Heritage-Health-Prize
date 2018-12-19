@@ -41,7 +41,7 @@ Where:
 - [x] Data cleaning (Hanlding missing value, hanlding categorical and continuous data,...)
 - [x] Merging files
 ### 2. Feature extraction
-- [ ] Handling outliners
+- [x] Handling outliners
 - [ ] Exploring data (Visualizations, Distribution of features,...)
 - [ ] Feature scaling (Standardisation, Mean Normalisation, Min-Max Scaling,... )
 ### 3. Predictive modelling
