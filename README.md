@@ -45,10 +45,10 @@ Where:
 - [ ] Exploring data (Visualizations, Distribution of features,...)
 - [ ] Feature scaling (Standardisation, Mean Normalisation, Min-Max Scaling,... )
 ### 3. Predictive modelling
-- [ ] Linear Regression
+- [x] Linear Regression
 - [ ] Support Vector Regression
 - [ ] Random Forests
-- [ ] Logistic Regression
+- [x] Logistic Regression
 - [ ] Neural Networks
 - [ ] Gradient Boosting Machines
 ### 4. Models summary
