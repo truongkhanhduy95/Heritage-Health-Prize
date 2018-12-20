@@ -19,7 +19,7 @@ def calculate_error():
         raise ValueError("The file does not have same rows")
 
     # Merge by Member key
-    df = df_pred.merge(df_actual, left_on = 'MemberID', right_on = 'MemberID') #.drop(['ClaimsTruncated'],axis=1)
+    df = df_pred.merge(df_actual, left_on = 'MemberID', right_on = 'MemberID').drop(['ClaimsTruncated_x', 'ClaimsTruncated_y'],axis=1)
     print(df.head())
 
     # Evaluation metric : Root Mean Square Logarithmic Error (RMSLE)
