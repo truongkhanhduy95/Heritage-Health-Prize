@@ -46,6 +46,7 @@ Where:
 - [ ] Feature scaling (Standardisation, Mean Normalisation, Min-Max Scaling,... )
 ### 3. Predictive modelling
 - [x] Linear Regression
+- [x] Ridge Regression
 - [ ] Support Vector Regression
 - [ ] Random Forests
 - [x] Logistic Regression
@@ -63,6 +64,7 @@ Where:
 Predictors | Score
 ------------ | -------------
 Linear Regression |  0.4891
+Ridge Regression | 0.4892
 Support Vector Regression | 0.00
 Random Forests | 0.00
 Logistic Regression | 0.5065
