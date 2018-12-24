@@ -19,13 +19,19 @@ def calculate_error():
         raise ValueError("The file does not have same rows")
 
     # Merge by Member key
-    df = df_pred.merge(df_actual, left_on = 'MemberID', right_on = 'MemberID').drop(['ClaimsTruncated_x', 'ClaimsTruncated_y'],axis=1)
+    df = df_pred.merge(df_actual, left_on = 'MemberID', right_on = 'MemberID').drop(['ClaimsTruncated'],axis=1)
     print(df.head())
+
+    # Print top 5 error
+    print('---------------------------------------------')
+    print('Top 5 error')
+    df['Error'] = abs(df['DIH'] - df['DaysInHospital'])
+    print(df.nlargest(5, 'Error'))
 
     # Evaluation metric : Root Mean Square Logarithmic Error (RMSLE)
     # https://www.kaggle.com/c/hhp#evaluation
     n = df_pred.shape[0]
-    err = np.sqrt(((np.log(df[df.columns[1]] + 1) - np.log(df[df.columns[2]] + 1)) ** 2).sum() / n)
+    err = np.sqrt(((np.log(df['DIH'] + 1) - np.log(df['DaysInHospital'] + 1)) ** 2).sum() / n)
 
     return err
 
@@ -41,6 +47,9 @@ if __name__ == "__main__":
         isFile(actualFile)
 
         err = calculate_error() # Calculate
+        
+        # Print top 5 error
+        print('---------------------------------------------')
         print("Error:",err)
 
         pass
