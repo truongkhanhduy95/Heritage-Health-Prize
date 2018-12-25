@@ -22,11 +22,12 @@ def calculate_error():
     df = df_pred.merge(df_actual, left_on = 'MemberID', right_on = 'MemberID').drop(['ClaimsTruncated'],axis=1)
     print(df.head())
 
-    # Print top 5 error
+    # Print top K error
+    K = 10
     print('---------------------------------------------')
-    print('Top 5 error')
+    print('Top error')
     df['Error'] = abs(df['DIH'] - df['DaysInHospital'])
-    print(df.nlargest(5, 'Error'))
+    print(df.nlargest(K, 'Error'))
 
     # Evaluation metric : Root Mean Square Logarithmic Error (RMSLE)
     # https://www.kaggle.com/c/hhp#evaluation
