@@ -69,7 +69,7 @@ Support Vector Regression | 0.00
 Random Forests | 0.00
 Logistic Regression | 0.5065
 Neural Networks | 0.00
-Gradient Boosting Machines | 0.00
+Gradient Boosting Machines | 0.49
 
 ## Ensemble method
 > Ensemble result: 0.00
