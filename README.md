@@ -64,7 +64,7 @@ Where:
 Predictors | Score
 ------------ | -------------
 Linear Regression |  0.4850
-Ridge Regression | 0.4892
+Ridge Regression | 0.4844
 Support Vector Regression | 0.00
 Random Forests | 0.5032
 Logistic Regression | 0.5065
