@@ -53,8 +53,8 @@ Where:
 - [ ] Neural Networks
 - [ ] Gradient Boosting Machines
 ### 4. Models summary
-- [ ] Model cross-validation (Stratified K-Fold)
-- [ ] Hyperparameter tuning
+- [x] Model cross-validation (Stratified K-Fold)
+- [x] Hyperparameter tuning
 ### 5. Ensemble methods
 - [ ] Models selection (Observation models correlations)
 - [ ] Ensembling
@@ -66,7 +66,7 @@ Predictors | Score
 Linear Regression |  0.4850
 Ridge Regression | 0.4844
 Support Vector Regression | 0.00
-Random Forests | 0.4877
+Random Forests | 0.4846
 Logistic Regression | 0.5065
 Neural Networks | 0.00
 Gradient Boosting Machines | 0.49
