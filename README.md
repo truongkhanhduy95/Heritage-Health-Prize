@@ -66,7 +66,7 @@ Predictors | Score
 Linear Regression |  0.4850
 Ridge Regression | 0.4844
 Support Vector Regression | 0.00
-Random Forests | 0.5032
+Random Forests | 0.4877
 Logistic Regression | 0.5065
 Neural Networks | 0.00
 Gradient Boosting Machines | 0.49
