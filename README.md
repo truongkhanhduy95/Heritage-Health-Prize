@@ -50,7 +50,7 @@ Where:
 - [ ] Support Vector Regression
 - [x] Random Forests
 - [x] Logistic Regression
-- [ ] Neural Networks
+- [x] Neural Networks
 - [ ] Gradient Boosting Machines
 ### 4. Models summary
 - [x] Model cross-validation (Stratified K-Fold)
