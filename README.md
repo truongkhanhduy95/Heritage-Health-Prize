@@ -43,7 +43,7 @@ Where:
 ### 2. Feature extraction
 - [x] Handling outliners
 - [ ] Exploring data (Visualizations, Distribution of features,...)
-- [ ] Feature scaling (Standardisation, Mean Normalisation, Min-Max Scaling,... )
+- [x] Feature scaling (Standardisation, Mean Normalisation, Min-Max Scaling,... )
 ### 3. Predictive modelling
 - [x] Linear Regression
 - [x] Ridge Regression
