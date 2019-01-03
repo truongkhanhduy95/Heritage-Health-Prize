@@ -48,7 +48,7 @@ Where:
 - [x] Linear Regression
 - [x] Ridge Regression
 - [ ] Support Vector Regression
-- [ ] Random Forests
+- [x] Random Forests
 - [x] Logistic Regression
 - [ ] Neural Networks
 - [ ] Gradient Boosting Machines
