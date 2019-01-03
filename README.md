@@ -51,7 +51,7 @@ Where:
 - [x] Random Forests
 - [x] Logistic Regression
 - [x] Neural Networks
-- [ ] Gradient Boosting Machines
+- [x] Gradient Boosting Machines
 ### 4. Models summary
 - [x] Model cross-validation (Stratified K-Fold)
 - [x] Hyperparameter tuning
