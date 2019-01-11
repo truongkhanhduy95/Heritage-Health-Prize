@@ -42,7 +42,7 @@ Where:
 - [x] Merging files
 ### 2. Feature extraction
 - [x] Handling outliners
-- [] Exploring data (Visualizations, Distribution of features,...)
+- [x] Exploring data (Visualizations, Distribution of features,...)
 - [x] Feature scaling (Standardisation, Mean Normalisation, Min-Max Scaling,... )
 ### 3. Predictive modelling
 - [x] Linear Regression
