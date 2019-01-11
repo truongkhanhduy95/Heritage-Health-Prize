@@ -47,7 +47,7 @@ Where:
 ### 3. Predictive modelling
 - [x] Linear Regression
 - [x] Ridge Regression
-- [ ] Support Vector Regression
+- [x] Support Vector Regression
 - [x] Random Forests
 - [x] Logistic Regression
 - [x] Neural Networks
@@ -65,7 +65,7 @@ Predictors | Score
 ------------ | -------------
 Linear Regression |  0.4850
 Ridge Regression | 0.4844
-Support Vector Regression | 0.00
+Support Vector Regression | 0.4783
 Random Forests | 0.4846
 Logistic Regression | 0.5065
 Neural Networks | 0.48
