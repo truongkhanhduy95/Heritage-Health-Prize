@@ -42,12 +42,12 @@ Where:
 - [x] Merging files
 ### 2. Feature extraction
 - [x] Handling outliners
-- [ ] Exploring data (Visualizations, Distribution of features,...)
+- [x] Exploring data (Visualizations, Distribution of features,...)
 - [x] Feature scaling (Standardisation, Mean Normalisation, Min-Max Scaling,... )
 ### 3. Predictive modelling
 - [x] Linear Regression
 - [x] Ridge Regression
-- [ ] Support Vector Regression
+- [x] Support Vector Regression
 - [x] Random Forests
 - [x] Logistic Regression
 - [x] Neural Networks
@@ -65,11 +65,11 @@ Predictors | Score
 ------------ | -------------
 Linear Regression |  0.4850
 Ridge Regression | 0.4844
-Support Vector Regression | 0.00
+Support Vector Regression | 0.4783
 Random Forests | 0.4846
 Logistic Regression | 0.5065
 Neural Networks | 0.48
-Gradient Boosting Machines | 0.48
+Gradient Boosting Machines | 0.4790
 
 ## Ensemble method
 > Ensemble result: 0.00
