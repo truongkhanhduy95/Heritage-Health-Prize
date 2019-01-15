@@ -28,6 +28,31 @@ def calculate_error():
     print('Top error')
     df['Error'] = abs(df['DaysInHospital_x'] - df['DaysInHospital_y'])
     print(df.nlargest(K, 'Error'))
+    print('---------------------------------------------')
+
+    # Largest error count
+    count = df.loc[(df['DaysInHospital_x'] == 0 ) & (df['DaysInHospital_y'] == 15), 'MemberID'].count()
+    print('Largest error count: ', count)
+
+    # Precision
+    true_pos = df.loc[(df['DaysInHospital_x'] > 0) & (df['DaysInHospital_y'] > 0), 'MemberID'].count()
+    false_pos = df.loc[(df['DaysInHospital_x'] > 0) & (df['DaysInHospital_y'] == 0), 'MemberID'].count()
+    precision = true_pos / (true_pos + false_pos)
+
+    # Recall
+    #true_neg = df.loc[(df['DaysInHospital_x'] == 0) & (df['DaysInHospital_y'] == 0), 'MemberID'].count()
+    false_neg = df.loc[(df['DaysInHospital_x'] == 0) & (df['DaysInHospital_y'] > 0), 'MemberID'].count()
+    recall = true_pos / (true_pos + false_neg)
+
+    # F1 Score
+    f1_score = 2 * precision * recall / (precision + recall)
+    print('True pos: ', true_pos)
+    print('---------------------------------------------')
+    print('Precison: ', precision)
+    print('Recall: ', recall)
+    print()
+    print('F1 Score: ', f1_score)
+    
 
     # Evaluation metric : Root Mean Square Logarithmic Error (RMSLE)
     # https://www.kaggle.com/c/hhp#evaluation
