@@ -74,3 +74,4 @@ Gradient Boosting Machines | 0.4790
 ## Ensemble method
 > Ensemble result: 0.00
 
+> Optimal constant value + Ensemble: 0.4653
