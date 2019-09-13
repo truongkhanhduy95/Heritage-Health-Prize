@@ -56,7 +56,7 @@ Where:
 - [x] Model cross-validation (Stratified K-Fold)
 - [x] Hyperparameter tuning
 ### 5. Ensemble methods
-- [ ] Models selection (Observation models correlations)
+- [x] Models selection (Observation models correlations)
 - [ ] Ensembling
 
 ## Summary of Individual Predictors
