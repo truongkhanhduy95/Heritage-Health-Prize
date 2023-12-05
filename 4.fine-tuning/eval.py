@@ -9,7 +9,7 @@ def isFile(fileName):
     print("File: ",fileName)
 
 def calculate_error():
-    # Read .csv file
+   
     df_pred = pd.read_csv(predictFile)
     df_actual = pd.read_csv(actualFile)
 
